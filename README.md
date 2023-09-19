@@ -1,6 +1,6 @@
 # Paint App
 
-[Demo link](https://duckduckgo.com)
+[Demo link](https://mavludacodes.github.io/paint-app/)
 
 ###### Demo image:
 
