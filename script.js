@@ -20,8 +20,16 @@ const setCanvasBackground = () => {
   ctx.fillStyle = selectedColor;
 };
 window.addEventListener("load", () => {
+  console.log("before");
+  console.log(canvas.width); // by default 300px
+  console.log(canvas.height); // by default 150px
   canvas.width = canvas.offsetWidth;
   canvas.height = canvas.offsetHeight;
+  console.log("after");
+  console.log(canvas.offsetWidth);
+  console.log(canvas.offsetHeight);
+  console.log(canvas.width); // now  564px
+  console.log(canvas.height); // now 550px
   setCanvasBackground();
 });
 
