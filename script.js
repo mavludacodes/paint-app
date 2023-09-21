@@ -11,7 +11,7 @@ const toolBtns = document.querySelectorAll(".tool");
 let prevMouseX, prevMouseY;
 let isDrawing = false;
 selectedTool = "brush";
-selectedColor = "#fff";
+selectedColor = "#000";
 brushWidth = 5;
 
 const setCanvasBackground = () => {
